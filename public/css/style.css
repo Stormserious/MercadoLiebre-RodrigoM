@@ -1,0 +1,87 @@
+body{ background-color: rgb(255, 230, 0);}
+
+#cabezera { width: 1410px; height: 100px; background-color: rgb(252, 252, 9);}
+#imagenCabezera {width: 134px; height: 34px; margin-top: 30px; margin-left: 200px; float: left;} 
+#buscador { width: 340; height: 10px;
+            padding: 10px 70px 10px 10px;
+            margin-top: 30px;
+            margin-left: 100px;
+            float: left;
+            display: flex;}
+#imagenDisney {width: 340px; height: 39px; float: left; margin-left: 300px; margin-top: 15px;}
+
+#navegador {width: 1410px; height: 30px; background-color:rgb(252, 252, 9); margin-top: 0px; font-size: 20px;} 
+.menuHorizontal {display: flex; justify-content: space-around; }
+.menuHorizontal > li > a {display: block; padding: 3px 0px; text-decoration: none;}
+.menuHorizontal > li:hover{background-color:rgb(236, 236, 99);}
+#navegador ul{list-style: none; margin: 0px; padding: 0px;}
+#navegador ol{list-style: none; margin: 0px; padding: 0px;}
+
+.menuVertical{position: absolute; display: none; width: 200px; background-color:rgb(252, 252, 9);}
+.menuHorizontal li:hover .menuVertical {display: block;}
+.menuVertical li:hover {background-color: rgb(224, 238, 28);}
+.menuVertical li a{display: block; padding: 15px 15px 15px 20px; text-decoration: none; color: black;}
+
+#bannerCarrusel {overflow: hidden; animation: slide 20s infinite alternate ease-in;}
+#bannerCarrusel ul{list-style: none; margin: 0px; padding: 0px; ; width: 400%; } 
+#bannerCarrusel img{width: 1350px; }
+#img1{margin-left: 30px;}
+#img2{margin-left: 20px;}
+#img3{margin-left: 20px;}
+#img4{margin-left: 30px;}
+#bannerCarrusel li{list-style: none; width: 100%; display: inline;padding: 10px 3px; margin-left: 10px; margin: 10px;}
+@keyframes slide {
+    0% {margin-left: -1%;}
+    20% {margin-left: -1%;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
+
+#productos ul{list-style: none; padding: 0px; float: left;} 
+#productos img {width: 200px; height: 200px; margin-left: 50px; margin-top: 10px;}
+#p1 {width: 300px; height: 300px; background-color: rgb(253, 253, 253);margin-left: 50px; box-shadow: 10px 5px 5px rgb(90, 15, 15);}
+#p2 {width: 300px; height: 300px; background-color: rgb(253, 253, 253); margin-left: 40px;box-shadow: 10px 5px 5px rgb(90, 15, 15);}
+#p3 {width: 300px; height: 300px; background-color: rgb(253, 253, 253);margin-left: 40px;box-shadow: 10px 5px 5px rgb(90, 15, 15);}
+#p4 {width: 300px; height: 300px; background-color: rgb(253, 253, 253);margin-left: 40px;box-shadow: 10px 5px 5px rgb(90, 15, 15);}
+#p5 {width: 300px; height: 300px; background-color: rgb(253, 253, 253);margin-left: 50px;box-shadow: 10px 5px 5px rgb(90, 15, 15);}
+#p6 {width: 300px; height: 300px; background-color: rgb(253, 253, 253);margin-left: 40px;box-shadow: 10px 5px 5px rgb(90, 15, 15);}
+#p7 {width: 300px; height: 300px; background-color: rgb(253, 253, 253);margin-left: 40px;box-shadow: 10px 5px 5px rgb(90, 15, 15);}
+#p8 {width: 300px; height: 300px; background-color: rgb(253, 253, 253);margin-left: 40px;box-shadow: 10px 5px 5px rgb(90, 15, 15);}
+#precio{font-size: xx-large; margin-left: 30px; text-shadow: 0px 0px 7px rgb(14, 13, 13);} 
+#descripcion{margin-left: 30px}
+
+.hov:hover{color: rgb(10, 10, 10); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+#piedepagina{width: 1410px; height: 200px; background-color: rgb(139, 139, 139); margin-top: 700px;}
+#piedepagina ul{list-style: none; margin: 0px; padding: 5px; padding-left: 20px;}
+#piedepagina a:hover{color: rgb(55, 19, 122); animation: 1s ms 1;}
+@keyframes ms{
+    0%{opacity: 0; transform: escale(1.6);}
+}
+
+#footerIzquierda{float: left; margin: 0px; padding: 0px; padding-top: 50px;}
+
+#footerMedio{ padding-left: 500px; padding-top: 0px;}
+#textoDescarga{padding-left: 10px; padding-top: 10px;}
+#footerMedio ul{list-style: none; margin: 0px; padding: 0px;}
+#footerMedio ul li{padding: 0px 30px;}
+#logofooterA{width: 150px; height: 50px; }
+#logofooterG{width: 150px; height: 60px;}
+
+#footerDerecha{padding-left: 1050px; margin-top: -180px; }
+#footerDerecha ul{list-style: none; margin: 0px; padding: 0px;}
+#footerDerecha ul li{  float: left;padding: 0px 30px;}
+#redes{width: 60px; height: 50px;}
+
+.links{text-decoration:none; color: black}
+
